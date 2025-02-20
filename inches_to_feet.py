@@ -1,8 +1,8 @@
 # FILE NAME - inches_to_feet.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Bailey Orlick
+# DATE: 2/15/2025
+# BRIEF DESCRIPTION:  This will output the conversion, Inches to Feet and leftover Inches.
 
 
 
@@ -21,12 +21,12 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
     
+inch = int(input('Enter the numebr of inches: '))
     
+feet = inch // 12    
+leftover_inch = inch % 12
     
-    
-    
-    
-    
+print(f'{inch} inches is {feet} feet, and {leftover_inch} inches')
     
     
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -69,8 +69,7 @@ Enter the number of inches: 100
 1. What does it mean to "cast" input from the user?
 
 
-
-
+Casting is to convert a value from one data type to another.
 
 
 '''
