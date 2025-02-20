@@ -21,7 +21,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
     
-inch = int(input('Enter the numeber of inches: '))
+inch = int(input('Enter the number of inches: '))
     
 feet = inch // 12    
 leftover_inch = inch % 12
